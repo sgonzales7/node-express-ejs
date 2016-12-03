@@ -1,7 +1,7 @@
 {
   "name": "express2",
   "version": "1.0.0",
-  "author": "kamijean",
+  "author": "Stephanie",
   "scripts": {
     "start": "nodemon app.js"
   },
@@ -9,7 +9,9 @@
     "body-parser": "^1.15.2",
     "ejs": "^2.5.2",
     "express": "^4.14.0",
+    "nodemailer": "^2.6.4",
     "nodemon": "^1.11.0",
+    "sendmail": "^1.0.0",
     "superagent": "^2.3.0"
   }
 }

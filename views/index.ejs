@@ -3,13 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>Home page</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Delius+Unicase" rel="stylesheet">
   </head>
   <body>
     <div class="container">
-      <h1>Hello World</h1>
-      <form action="/results" method="post">
-        <input type="text" name="username" placeholder="Search GitHub...">
-        <input type="submit" value="Search">
+      <h1>Contact Us</h1>
+      <form action="/sent" method="get">
+        <input type="text" name="name" placeholder="Name">
+        <input type="text" name="email" placeholder="Email Address">
+        <input type="text" name="message" placeholder="Message">
+        <input type="submit" value="Submit">
       </form>
 
     </div>
